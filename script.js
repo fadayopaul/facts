@@ -111,7 +111,7 @@ function createDactsList(dataArray) {
           <button>⛔ ${fact.votesFalse}</button>
           </div>
     </li>
-          `;
+    `;
   });
   const html = htmlArr.join("");
   factList.insertAdjacentHTML("afterbegin", html);
